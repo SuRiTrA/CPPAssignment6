@@ -13,7 +13,7 @@ int main(void)
     for(;str[len]!='\0';len++);
     // Pointer variable refers to address of string 
     p=str+(len-1);
-    cout<<"THE REQUIRED OUTPUT: \n\n"
+    cout<<"THE REQUIRED OUTPUT: \n\n";
     // Show string by shifting top character of string to right
     for(int i=0;i<len;i++)
     {
