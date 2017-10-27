@@ -52,7 +52,7 @@ void Strstr(char str[],char substr[])
         }
     }
     if (substr[i] == '\0')
-        cout<<"\nSubstring found at "<<j;
+        cout<<"\nSubstring found in "<<str;
     else
         cout<<"\nSubstring not found ! ! !";
 }
@@ -96,12 +96,12 @@ int main()
   else
    cout<<"Both the strings are unequal";
   cout<<"\nThe length of String1 and String2 respectively is: "<<Strlen(str1)<<" and "<<Strlen(str2);
-  Strcat(str1,str2);
   Strchr(str1);
   char substr[20];
    cout<<"\nEnter the Subtring to be searched: ";
    cin>>substr;
    Strstr(str1,substr);
+   Strcat(str1,str2);
   return 0;
 }
   
