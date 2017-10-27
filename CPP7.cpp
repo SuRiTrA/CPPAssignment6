@@ -50,16 +50,15 @@ int main()
   cin>>str1;
   cout<<"\nEnter the second String: ";
   cin>>str2;
-  cout<<"\nThe length of String1 and String2 respectively is: "<<Strlen(str1)<<" and "<<Strlen(str2);
-  Strcat(str1,str2);
-  flag=Strcmp(str1,str2);
+  int flag=Strcmp(str1,str2);
   cout<<"\nComparing the strings we find: ";
-  int flag;
-  cout<<flag;
   if(flag==0)
    cout<<"Both the strings are equal";
   else
    cout<<"Both the strings are unequal";
+  cout<<"\nThe length of String1 and String2 respectively is: "<<Strlen(str1)<<" and "<<Strlen(str2);
+  Strcat(str1,str2);
+  
   return 0;
 }
   
